@@ -58,14 +58,14 @@ Game.Achievements['Uncanny clicker'].icon = [13,36,'https://images-wixmp-ed30a86
 
 		Game.Loader.Replace('bankGrandma.png','https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/bankGrandmonocle.png');
 
-		Game.Achievements['Resurrection'].icon = [0,0,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
-		Game.Achievements['Reincarnation'].icon = [1,0,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
+		Game.Achievements['Resurrection'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
+		Game.Achievements['Reincarnation'].icon = [1,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		
-		Game.Achievements['Wrinklesquisher'].icon = [0,1,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
-		Game.Achievements['Moistburster'].icon = [1,1,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
+		Game.Achievements['Wrinklesquisher'].icon = [0,1,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
+		Game.Achievements['Moistburster'].icon = [1,1,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		
-		Game.Achievements['Sleigh of hand'].icon = [0,2,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
-		Game.Achievements['Reindeer sleigher'].icon = [1,2,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
+		Game.Achievements['Sleigh of hand'].icon = [0,2,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
+		Game.Achievements['Reindeer sleigher'].icon = [1,2,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		
-		Game.Achievements['Elder slumber'].icon = [0,3,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
-		Game.Achievements['Elder calm'].icon = [1,3,https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png];
+		Game.Achievements['Elder slumber'].icon = [0,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
+		Game.Achievements['Elder calm'].icon = [1,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
