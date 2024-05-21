@@ -66,7 +66,8 @@ Game.Achievements['Uncanny clicker'].icon = [13,36,'https://images-wixmp-ed30a86
 		
 		Game.Achievements['Sleigh of hand'].icon = [0,2,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		Game.Achievements['Reindeer sleigher'].icon = [1,2,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
-		
+		Game.Achievements['Fading luck'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/pixilart-drawing%20(2).png']
+		Game.Achievements['Early bird'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/pixilart-drawing%20(3).png']
 		Game.Achievements['Elder slumber'].icon = [0,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		Game.Achievements['Elder calm'].icon = [1,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 
