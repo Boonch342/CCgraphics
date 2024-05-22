@@ -48,7 +48,7 @@ Game.Achievements['Uncanny clicker'].icon = [13,36,'https://images-wixmp-ed30a86
 		Game.Upgrades['Alternate grandmas'].icon = [5,1,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/coolGrannies.png'];
 		Game.Upgrades['Brainy grandmas'].icon = [6,1,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/coolGrannies.png'];
 		Game.Upgrades['Clone grandmas'].icon = [10,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/coolGrannies.png'];
-		Game.Upgrades['Banker grandmas'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/others/iconGrandmonocle.png'];
+		Game.Upgrades['Banker grandmas'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/iconGrandmonocle.png'];
 		
 		Game.Achievements['Just wrong'].icon = [9,1,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/coolGrannies.png'];
 		Game.Achievements['Elder'].icon = [6,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/Grandma/coolGrannies.png'];
