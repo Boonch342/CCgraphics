@@ -71,7 +71,7 @@ Game.Achievements['Uncanny clicker'].icon = [13,36,'https://images-wixmp-ed30a86
 		Game.Achievements['Elder slumber'].icon = [0,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 		Game.Achievements['Elder calm'].icon = [1,3,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/tripleachievs/tripleCheevos.png'];
 
-Game.Achievements['Make my day'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/stockup.png'];
-Game.Achievements['Buy buy buy'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/stockdown.png'];
+Game.Achievements['Make my day'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/makemyday.png'];
+Game.Achievements['Buy buy buy'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/buybuybuy.png'];
 Game.Achievements['Parasitesmasher'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/rockwrinkler.png']
 Game.Achievements['A sleightly longer grind'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/RockDeer.png']
