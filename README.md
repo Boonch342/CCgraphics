@@ -4,3 +4,4 @@ I put the images that are stored in the package onto the MinorGraphicsCC reposit
 
 If you want the original mods just look them up, i guess (some of these are modified versions from mods made for the web version)
 
+I'm going to add a list for all the mods eventually and this is a reminder for me
