@@ -50,10 +50,10 @@
     e("Expert Clicker","Click on the big cookie <b>25,000</b> times.",[11,24]),Game.last.order=1022,
         
     e("Heavenly","Reach prestige level <b>100</b>.",[19,7]),Game.last.order=30010,
-    e("Transcendent","Reach prestige level <b>10,000</b>.",[18,7]),Game.last.order=30011,
-    e("Higher energy state","Reach prestige level <b>1 million</b>.",[17,7]),Game.last.order=30012,
-    e("Omniverse","Reach prestige level <b>100 million</b>.",[16,7]),Game.last.order=30013,
-    e("The Ascendant","Reach prestige level <b>10 billion</b>.",[15,7]),Game.last.order=30014,
+    e("Transcendent","Reach prestige level <b>10,000</b>.",[18,7]),Game.last.order=30010.000001,
+    e("Higher energy state","Reach prestige level <b>1 million</b>.",[17,7]),Game.last.order=30010.000002,
+    e("Omniverse","Reach prestige level <b>100 million</b>.",[16,7]),Game.last.order=30010.000003,
+    e("The Ascendant","Reach prestige level <b>10 billion</b>.",[15,7]),Game.last.order=30010.000004,
         
     e("Getting fancy","Purchase <b>all fancy biscuits</b>.",[21,8]),Game.last.order=21101,
     e("You wanna be popular?","Purchase <b>all popular biscuits</b>.",[20,9]),Game.last.order=21103,
@@ -71,6 +71,6 @@
     e("Spike the dragon","Purchase <b>all dragon upgrades</b>.<q>Keep an eye on your gems.</q>",[30,12]),Game.last.order=21109,
     e("Collecting these is like growing plants","Purchase <b>all plant upgrades</b>.<q>It takes a looooong time.</q>",[24,25]),Game.last.order=21108,Game.last.order=5019,
    
-    e("Quite fine","Name yourself <b>Opti</b>.<q>Is the CpS penalty too much?</q>",[2,12]),Game.last.order=30201,Game.last.pool="shadow"},"createHook"),l=k;var p=o(()=>{let s=document.createElement("style");s.textContent=".darky:before{background:url(https://i.imgur.com/q8nNdkI.png);background-position:120px 0px;}",document.head.appendChild(s),Game.crate=new Function(`return ${Game.crate.toString().split("shadow';").join(` shadow';
+    e("Quite fine","Name yourself <b>Opti</b>.<q>Is the CpS penalty too much?</q>",[2,12,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/Opti-Face.png']),Game.last.order=30201,Game.last.pool="shadow"},"createHook"),l=k;var p=o(()=>{let s=document.createElement("style");s.textContent=".darky:before{background:url(https://i.imgur.com/q8nNdkI.png);background-position:120px 0px;}",document.head.appendChild(s),Game.crate=new Function(`return ${Game.crate.toString().split("shadow';").join(` shadow';
 if (me.darky === 1) classes+=' darky'; //Darky's achievement package injection`).split("mysterious?").join("mysterious? (me.darky === 1) ? 'background-image:url(\\'https://i.imgur.com/JKKvixm.png\\')'/*Darky's achievement package injection*/ : ")}`)(),Game.crateTooltip=new Function(`return ${Game.crateTooltip.toString().split("if (mysterious) icon=[0,7];").join("if (mysterious) icon=[0,7]; if (mysterious && me.darky === 1) icon = [1, 4, 'https://i.imgur.com/AWmeHiO.png']")}`)()},"overrides"),c=p;var f=o(()=>{c(),Game.registerHook("check",m),l()},"init"),G=f;var H=o(s=>{JSON.parse(s).unlockedAchievs.forEach(t=>{Game.Achievements[t].won=1})},"load"),d=H;var v=o(()=>{let s={unlockedAchievs:[]};return Object.values(Game.AchievementsById).forEach(a=>{a.darky&&a.won&&s.unlockedAchievs.push(a.name)}),JSON.stringify(s)},"save"),u=v;var y={init:G,save:u,load:d,Achievement:e};Game.registerMod("Darkys Achievement Package",y);})();
 //# sourceMappingURL=main.js.map
