@@ -179,7 +179,7 @@ DecideDestiny.CreateUpgrades = function(){
 					Game.Win('Decisive');
 					if(DecideDestiny.timesDecided >= 10) Game.Win('Control freak');
 					if(choice.name == 'Blab') Game.Win('Whimsical');
-					if(choice.name == 'Sweet') Game.Win('What was that for?');
+					if(choice.name == 'Sweet') Game.Win('Investment');
 					
 					DecideDestiny.hideSelectorBox();
 				})();
@@ -218,7 +218,7 @@ DecideDestiny.CreateAchievements = function(){
 		last.pool = 'shadow';
 	last = CCSE.NewAchievement('Tradeoff', 'Accept a negative fate for material gain.', [15, 5]); last.order = order; order += 0.001;
 	last = CCSE.NewAchievement('Whimsical', 'Decide your destiny would be a <b>Blab</b>.', [29, 8]); last.order = order; order += 0.001;
-last = CCSE.NewAchievement('What was that for?', 'Decide your destiny would be <b>Sweet</b>.', [29, 27]); last.order = order; order += 0.001;
+last = CCSE.NewAchievement('Investment', 'Decide your destiny would be <b>Sweet</b>.', [29, 27]); last.order = order; order += 0.001;
 	
 }
 
