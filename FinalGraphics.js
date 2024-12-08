@@ -89,8 +89,10 @@ Game.Achievements['Elder calm'].icon = [1,3,'https://raw.githubusercontent.com/B
 Game.Achievements['Make my day'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/makemyday.png'];
 Game.Achievements['Buy buy buy'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/buybuydollarsign.png'];
 
-//These two are the ones the Spiced Cookies mod adds
+//These are the ones the Spiced Cookies mod adds
 Game.Achievements['Parasitesmasher'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/rockwrinkler.png']
 Game.Achievements['A sleightly longer grind'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/RockDeer.png']
+Game.Achievements['Failing on purpose'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/buybuybuy.png'];
+Game.Achievements['Who wants to be a millionaire?'].icon = [0,0,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/main/makemyday.png'];
 
 //There used to be the one for the naming yourself Opti from the modded Dark Cheevos, but I just put the image directly into the modded mod
