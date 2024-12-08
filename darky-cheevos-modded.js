@@ -1,4 +1,3 @@
-
 (()=>{var b=Object.defineProperty;var o=(s,a)=>b(s,"name",{value:a,configurable:!0});var g=o((s,a,t)=>{let n=new Game.Achievement(s,a,t);return n.darky=1,n.ddesc=a,n},"Achievement"),e=g;var h=[()=>
     
     {Game.Has("Lucky digit")&&Game.Has("Lucky number")&&Game.Has("Lucky payout")&&Game.Win("Secret fortune")},()=>
@@ -27,15 +26,15 @@
     
     {Game.Has("Profiteroles")&&Game.Has("Jelly donut")&&Game.Has("Glazed donut")&&Game.Has("Chocolate cake")&&Game.Has("Strawberry cake")&&Game.Has("Apple pie")&&Game.Has("Lemon meringue pie")&&Game.Has("Butter croissant")&&Game.Win("Pastries from the past")},()=>
     
-    {Game.Has("Kitten helpers")&&Game.Has("Kitten workers")&&Game.Has("Kitten engineers")&&Game.Has("Kitten overseers")&&Game.Has("Kitten managers")&&Game.Has("Kitten accountants")&&Game.Has("Kitten specialists")&&Game.Has("Kitten experts")&&Game.Has("Kitten consultants")&&Game.Has("Kitten assistants to the regional manager")&&Game.Has("Kitten marketeers")&&Game.Has("Kitten analysts")&&Game.Has("Kitten executives")&&Game.Has("Kitten angels")&&Game.Has("Fortune #103")&&Game.Win("Purrfect Perfection")},()=>
+    {Game.Has("Kitten helpers")&&Game.Has("Kitten workers")&&Game.Has("Kitten engineers")&&Game.Has("Kitten overseers")&&Game.Has("Kitten managers")&&Game.Has("Kitten accountants")&&Game.Has("Kitten specialists")&&Game.Has("Kitten experts")&&Game.Has("Kitten consultants")&&Game.Has("Kitten assistants to the regional manager")&&Game.Has("Kitten marketeers")&&Game.Has("Kitten analysts")&&Game.Has("Kitten executives")&&Game.Has("Kitten admins")&&Game.Has("Kitten strategists")&&Game.Has("Kitten angels")&&Game.Has("Fortune #103")&&Game.Win("Purrfection")},()=>
     
-    {Game.Has("Future almanacs")&&Game.Has("Seismic magic")&&Game.Has("Quantum electronics")&&Game.Has("Contracts from beyond")&&Game.Has("Paganism")&&Game.Has("Arcane knowledge")&&Game.Has("Fossil fuels")&&Game.Has("Primordial ores")&&Game.Has("Infernal crops")&&Game.Has("Relativistic parsec-skipping")&&Game.Has("Extra physics funding")&&Game.Has("Light magic")&&Game.Has("Gemmed talismans")&&Game.Has("Recursive mirrors")&&Game.Has("Script grannies")&&Game.Has("Perforated mille-feuille cosmos")&&Game.Win("It's sweet, sweet, sweet Synergy")},()=>
+    {Game.Has("Future almanacs")&&Game.Has("Seismic magic")&&Game.Has("Quantum electronics")&&Game.Has("Contracts from beyond")&&Game.Has("Paganism")&&Game.Has("Arcane knowledge")&&Game.Has("Fossil fuels")&&Game.Has("Primordial ores")&&Game.Has("Infernal crops")&&Game.Has("Relativistic parsec-skipping")&&Game.Has("Extra physics funding")&&Game.Has("Light magic")&&Game.Has("Gemmed talismans")&&Game.Has("Recursive mirrors")&&Game.Has("Script grannies")&&Game.Has("Perforated mille-feuille cosmos")&&Game.Win("Simple synergy")},()=>
     
-    {Game.Has("Rain prayer")&&Game.Has("Asteroid mining")&&Game.Has("Temporal overclocking")&&Game.Has("Printing presses")&&Game.Has("God particle")&&Game.Has("Magical botany")&&Game.Has("Shipyards")&&Game.Has("Gold fund")&&Game.Has("Abysmal glimmer")&&Game.Has("Primeval glow")&&Game.Has("Chemical proficiency")&&Game.Has("Mystical energies")&&Game.Has("Charm quarks")&&Game.Has("Mice clicking mice")&&Game.Has("Tombola computing")&&Game.Has("Infraverses and superverses")&&Game.Win("Out of Energy? Get Synergy!")},()=>
+    {Game.Has("Rain prayer")&&Game.Has("Asteroid mining")&&Game.Has("Temporal overclocking")&&Game.Has("Printing presses")&&Game.Has("God particle")&&Game.Has("Magical botany")&&Game.Has("Shipyards")&&Game.Has("Gold fund")&&Game.Has("Abysmal glimmer")&&Game.Has("Primeval glow")&&Game.Has("Chemical proficiency")&&Game.Has("Mystical energies")&&Game.Has("Charm quarks")&&Game.Has("Mice clicking mice")&&Game.Has("Tombola computing")&&Game.Has("Infraverses and superverses")&&Game.Win("It's sweet, sweet, synergy")},()=>
     
     {Game.Has("Dragon scale")&&Game.Has("Dragon claw")&&Game.Has("Dragon fang")&&Game.Has("Dragon teddy bear")&&Game.Win("Spike the dragon")},()=>
     
-    {Game.Has("Elderwort biscuits")&&Game.Has("Bakeberry cookies")&&Game.Has("Duketater cookies")&&Game.Has("Green yeast digestives")&&Game.Has("Fern tea")&&Game.Has("Ichor syrup")&&Game.Has("Wheat slims")&&Game.Win("Collecting these is like growing plants")},()=>
+    {Game.Has("Elderwort biscuits")&&Game.Has("Bakeberry cookies")&&Game.Has("Duketater cookies")&&Game.Has("Green yeast digestives")&&Game.Has("Fern tea")&&Game.Has("Ichor syrup")&&Game.Has("Wheat slims")&&Game.Win("Home grown")},()=>
     
     {Game.bakeryName==="Opti"&&Game.Win("Quite fine")}],m=h;var i="https://hyoretsu.github.io/DarkysCheevosPackage/static/achievements.png",r="https://i.imgur.com/3jNJJNw.png",k=o(()=>
    
@@ -63,13 +62,13 @@
     e("Burger Clicker","Purchase <b>all not cookies</b>.<q>Shoutout to the old Idle Game Maker!</q>",[26,29]),Game.last.order=21107,
     e("Pastries from the past","Purchase <b>all pastries</b>.",[27,29]),Game.last.order=21105,
         
-    e("Purrfect Perfection","Purrchase <b>every kitten upgrade</b>.<q>Are you sick of these puns yet?</q>",[18,35]),Game.last.order=10001,
+    e("Purrfection","Purrchase <b>every kitten upgrade</b>.<q>Are you sick of these puns yet?</q>",[18,35]),Game.last.order=10000.466,
         
-    e("It's sweet, sweet, sweet Synergy","Purchase <b>all Synergy I upgrades</b>.<q>It's ours for the baking.</q>",[9,20]),Game.last.order=6001.5879999995,
-    e("Out of Energy? Get Synergy!","Purchase <b>all Synergy II upgrades</b>.",[9,29]),Game.last.order=6001.5879999996,
+    e("Simple synergy","Purchase <b>all Synergy I upgrades</b>.<q>It's ours for the baking.</q>",[9,20]),Game.last.order=6001.5879999995,
+    e("It's sweet, sweet, synergy","Purchase <b>all Synergy II upgrades</b>.",[9,29]),Game.last.order=6001.5879999996,
         
     e("Spike the dragon","Purchase <b>all dragon upgrades</b>.<q>Keep an eye on your gems.</q>",[30,12]),Game.last.order=21109,
-    e("Collecting these is like growing plants","Purchase <b>all plant upgrades</b>.<q>It takes a looooong time.</q>",[24,25]),Game.last.order=21108,Game.last.order=5019,
+    e("Home grown","Purchase <b>all plant upgrades</b>.<q>It takes a looooong time.</q>",[23,25]),Game.last.order=61515.383,
    
     e("Quite fine","Name yourself <b>Opti</b>.<q>Is the CpS penalty too much?</q>",[2,12,'https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/Opti-Face.png']),Game.last.order=30201,Game.last.pool="shadow"},"createHook"),l=k;var p=o(()=>{let s=document.createElement("style");s.textContent=".darky:before{background:url(https://i.imgur.com/q8nNdkI.png);background-position:120px 0px;}",document.head.appendChild(s),Game.crate=new Function(`return ${Game.crate.toString().split("shadow';").join(` shadow';
 if (me.darky === 1) classes+=' darky'; //Darky's achievement package injection`).split("mysterious?").join("mysterious? (me.darky === 1) ? 'background-image:url(\\'https://i.imgur.com/JKKvixm.png\\')'/*Darky's achievement package injection*/ : ")}`)(),Game.crateTooltip=new Function(`return ${Game.crateTooltip.toString().split("if (mysterious) icon=[0,7];").join("if (mysterious) icon=[0,7]; if (mysterious && me.darky === 1) icon = [1, 4, 'https://i.imgur.com/AWmeHiO.png']")}`)()},"overrides"),c=p;var f=o(()=>{c(),Game.registerHook("check",m),l()},"init"),G=f;var H=o(s=>{JSON.parse(s).unlockedAchievs.forEach(t=>{Game.Achievements[t].won=1})},"load"),d=H;var v=o(()=>{let s={unlockedAchievs:[]};return Object.values(Game.AchievementsById).forEach(a=>{a.darky&&a.won&&s.unlockedAchievs.push(a.name)}),JSON.stringify(s)},"save"),u=v;var y={init:G,save:u,load:d,Achievement:e};Game.registerMod("Darkys Achievement Package",y);})();
