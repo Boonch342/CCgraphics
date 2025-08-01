@@ -62,7 +62,7 @@ EMHU.launch = function() {
 
 //Kittens
         CCSE.NewHeavenlyUpgrade('Litter of kittens workforce', "Kittens persist through ascension<q>We're with you forever, sir</q>", 9000000000000, [26, 7], 600, -900, ['Kitten wages']);
-        Game.last.showIf = function() { return (Game.Achievements["Jellicles"].won == 1); };
+        Game.last.showIf = function() { return (Game.Achievements["Kitten strategists"].won == 1); };
         
 
         Game.customComputeLumpTimes.push(function() {
