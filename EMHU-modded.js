@@ -29,23 +29,12 @@ const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/
 
 //Divine Upgrades
         CCSE.NewHeavenlyUpgrade('Divine savings', "Add to your bank all your unspent heavenly chips<q>They won\'t be spent<br>don\'t worry</q>", 7777777777, [20, 7], -725, 400, ['Decisive fate']);
-        CCSE.NewHeavenlyUpgrade('Divine gains', "Each unspent heavenly chip will give you a <b>+1% to your CpS</b><q>That\'s a boost</q>", 7777777777777, [28, 12], -625, 604, ['Divine savings', 'Divine bakeries']);
-        CCSE.NewHeavenlyUpgrade('Divine buildings', "Get <b>+1% to your CpS</b> for each building owned<q>the more the merrier</q>", 88888888888888, [33, 12], -736, 718, ['Divine gains']);
-        CCSE.NewHeavenlyUpgrade('Divine unascended gains', "Get <b>+1% to your CpS</b> for each prestige level in the legacy meter<q>It just speeds up</q>", 999999999999999, [25, 7], -729, 865, ['Divine buildings']);
-        CCSE.NewHeavenlyUpgrade('Divine lumps', "Gain an additional <b>+1% to your CpS</b> for each sugar lump you have.<q>Yes. It does stack with the default upgrade.</q>", 9999999999999999, [21, 17], -793, 983, ['Divine unascended gains']);
-
-
-//Season Upgrades
-        CCSE.NewHeavenlyUpgrade('Santa\'s Heavenly Legacy', "Final Claus will accompany you on ascension<q>You have earned my trust</q>", 142328760634, [19, 10], -517, -330, ['Starsnow']);
-        CCSE.NewHeavenlyUpgrade('Rudolph\'s Recipe', "You start with all 7 Reindeer Cookies.<q>Wait... Reindeer can bake???</q>", 142328760634, [18, 4], -429, -259, ['Starsnow']);
-        CCSE.NewHeavenlyUpgrade('Silly Wabbit', "You start with all 20 eggs. <q>Guess he's here year round.</q>", 142328760634, [2, 1, ICONS], -877, 34, ['Starspawn']);
-        CCSE.NewHeavenlyUpgrade('Horror Story', "You start with all 7 Halloween Cookies. <q>Spooky!</q>", 142328760634, [2, 2, ICONS], -762, -347, ['Starterror']);
-        CCSE.NewHeavenlyUpgrade('Lover\'s Delight', "You start with all 7 Valentines Cookies. <q>Just can't control your love for cookies?</q>", 142328760634, [34, 11], -637, -366, ['Starlove']);
+        CCSE.NewHeavenlyUpgrade('Divine gains', "Each unspent heavenly chip will give you a <b>+1% to your CpS</b><q>That\'s a boost</q>", 7777777777777, [0, 0, "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/DivineGains.png"], -625, 604, ['Lucky payout', 'Divine bakeries']);
 
 
 //Ancient dragon
         Game.last.showIf = function() { return (Game.Achievements["Here be dragon"].won == 1); };
-        CCSE.NewHeavenlyUpgrade('Cookie Dragon Egg', "You start with your own dragon egg!<q>So you don't need to buy it everytime</q>", 7600000, [21, 12], -812, 538, ['Divine savings']);
+        CCSE.NewHeavenlyUpgrade('Cookie Dragon Egg', "You start with your own dragon egg!<q>So you don't need to buy it everytime</q>", 7600000, [21, 12], -812, 538, ['Divine gains']);
         CCSE.NewHeavenlyUpgrade('Cookie Hatchling', "Krumblor will be hatched on ascension<q>It costs a bit more than buying it in the living world, but it's worth</q>", 76700000, [31, 15], -945, 530, ['Cookie Dragon Egg']);
         CCSE.NewHeavenlyUpgrade('Dragon in Training', "Krumblor starts halfway into it\'s training<q>This tooth fell off when they grew up</q>", 767000000000, [30, 15], -1022,  646, ['Cookie Hatchling']);
         CCSE.NewHeavenlyUpgrade('Dragon in Baking', "Krublor starts fully trained <b>(1 slot)<b><q>Almost there!</q>", 767000000000000, [30, 14], -874, 721, ['Dragon in Training']);
