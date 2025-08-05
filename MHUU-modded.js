@@ -6,7 +6,7 @@
   who made all of this
   BECAUSE I am a picky person, I love taking these mods that people make and butchering them to remove the things I don't want to play with
   ie. Immolation
-  I have even less coding knowledge that this person and all the stuff i've done has been minimal or just trial and error
+  I have even less coding knowledge than this person and all the stuff i've done has been minimal or just trial and error
   THAT BEING SAID: YAY, I AM FINALLY DONE WITH THIS MOD
   It has been maimed to my liking, so now I can play with it in peace
   Even though I do this for myself so nobody will probably ever read this,
