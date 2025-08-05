@@ -25,7 +25,7 @@ EMHU.launch = function() {
 //
 // CCSE.NewHeavenlyUpgrade('Permanent upgrade slot X', desc, 100000000000000000000, [6, 11], 661, 360, ['Permanent upgrade slot IX']);
 // Game.last.iconFunction=function(){return Game.PermanentSlotIcon(9);};Game.last.activateFunction=function(){Game.AssignPermanentSlot(9);};
-
+const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/custIconsMHUU.png"
 
 //Divine Upgrades
         CCSE.NewHeavenlyUpgrade('Divine savings', "Add to your bank all your unspent heavenly chips<q>They won\'t be spent<br>don\'t worry</q>", 7777777777, [20, 7], -725, 400, ['Decisive fate']);
@@ -37,10 +37,10 @@ EMHU.launch = function() {
 
 //Season Upgrades
         CCSE.NewHeavenlyUpgrade('Santa\'s Heavenly Legacy', "Final Claus will accompany you on ascension<q>You have earned my trust</q>", 142328760634, [19, 10], -517, -330, ['Starsnow']);
-        CCSE.NewHeavenlyUpgrade('Rudolph\'s Recipe', "You start with all 7 Reindeer Cookies.<q>Wait... Reindeer can bake???</q>", 142328760634, [15, 9], -429, -259, ['Starsnow']);
-        CCSE.NewHeavenlyUpgrade('Silly Wabbit', "You start with all 20 eggs. <q>Guess he's here year round.</q>", 142328760634, [13, 12], -877, 34, ['Starspawn']);
-        CCSE.NewHeavenlyUpgrade('Horror Story', "You start with all 7 Halloween Cookies. <q>Spooky!</q>", 142328760634, [15, 8], -762, -347, ['Starterror']);
-        CCSE.NewHeavenlyUpgrade('Lover\'s Delight', "You start with all 7 Valentines Cookies. <q>Just can't control your love for cookies?</q>", 142328760634, [30, 8], -637, -366, ['Starlove']);
+        CCSE.NewHeavenlyUpgrade('Rudolph\'s Recipe', "You start with all 7 Reindeer Cookies.<q>Wait... Reindeer can bake???</q>", 142328760634, [18, 4], -429, -259, ['Starsnow']);
+        CCSE.NewHeavenlyUpgrade('Silly Wabbit', "You start with all 20 eggs. <q>Guess he's here year round.</q>", 142328760634, [2, 1, ICONS], -877, 34, ['Starspawn']);
+        CCSE.NewHeavenlyUpgrade('Horror Story', "You start with all 7 Halloween Cookies. <q>Spooky!</q>", 142328760634, [2, 2, ICONS], -762, -347, ['Starterror']);
+        CCSE.NewHeavenlyUpgrade('Lover\'s Delight', "You start with all 7 Valentines Cookies. <q>Just can't control your love for cookies?</q>", 142328760634, [34, 11], -637, -366, ['Starlove']);
 
 
 //Ancient dragon
