@@ -51,7 +51,7 @@ const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/
 
 //Kittens
         CCSE.NewHeavenlyUpgrade('Litter of kittens workforce', "Kittens persist through ascension<q>We're with you forever, sir</q>", 9000000000000, [26, 7], 600, -900, ['Kitten wages']);
-        Game.last.showIf = function() { return (Game.Achievements["Kitten strategists"].won == 1); };
+        Game.last.showIf = (Game.Has["Kitten strategists"] == 1)
         
 
         Game.customComputeLumpTimes.push(function() {
