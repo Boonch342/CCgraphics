@@ -1689,7 +1689,7 @@ Game.last.order = 181.003
 */
 
 
-CCSE.NewHeavenlyUpgrade('Mystery egg', "Start with <b>3 random eggs</b> that you do not own <small>(so if you give yourself some via permanent upgrades, this won't conflict with those)</small><q>Why does an egg contain many eggs? Why can't you just, keep all the eggs?</q>", 11111111, [2, 1, Greg], -847, 112, ['Starspawn']);
+CCSE.NewHeavenlyUpgrade('Mystery egg', "Start with <b>7 random eggs</b> that you do not own <small>(so if you give yourself some via permanent upgrades, this won't conflict with those)</small><q>Why does an egg contain many eggs? Why can't you just, keep all the eggs?</q>", 11111111, [2, 1, Greg], -847, 112, ['Starspawn']);
 Game.last.order = 181.001
 
 CCSE.NewHeavenlyUpgrade('Santa\'s ultimatum', "Start with <b>Santa</b> at level <b>10</b> for free.<q>Alright buddy you got two options here...</q><q>You can be a Saint. <b><small>SAINTE</small></b></q><q>or you can be a Grinch. <b><small>GRUNCH</small></b></q>", 11111111, [3, 1, Greg], -493, -305, ['Starsnow']);
@@ -2843,7 +2843,7 @@ Game.registerHook('reincarnate', function() {
     Consoled = 0
     EMA = 0
     if (Game.Has('Mystery egg')){
-        GainRandomEggs(3)
+        GainRandomEggs(7)
     }
     if (Game.Has("More idling")) {
     Game.Earn(Math.floor(Gold / 100))
