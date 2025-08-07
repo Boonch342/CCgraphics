@@ -1,3 +1,11 @@
+// ###############
+//    IMPORTANT
+// ###############
+// For the "Litter of kittens workforce" Heavenly Upgrade
+// It requires the achievement "Purrfection" which is added by Darky's Achievement Package
+// It, uh... It breaks if you don't have the mod installed
+// Just install the mod I guess? Sorry...
+
 if (EMHU === undefined) var EMHU = {};
 EMHU.name = 'Even More Heavenly Upgrades';
 EMHU.version = '2.8';
@@ -10,6 +18,7 @@ EMHU.launch = function() {
 
 
 //More Permanent upgrades --- Currently broken
+        //Don't worry, they work in MHUU
 // var desc = loc("Placing an upgrade in this slot will make its effects <b>permanent</b> across all playthroughs.");
 // CCSE.NewHeavenlyUpgrade('Permanent upgrade slot VI', desc, 6000000000000, [0, 11], 724, -28, ['Permanent upgrade slot V']);
 // Game.last.iconFunction=function(){return Game.PermanentSlotIcon(5);};Game.last.activateFunction=function(){Game.AssignPermanentSlot(5);};
