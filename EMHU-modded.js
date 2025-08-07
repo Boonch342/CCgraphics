@@ -25,8 +25,8 @@ EMHU.launch = function() {
 //
 // CCSE.NewHeavenlyUpgrade('Permanent upgrade slot X', desc, 100000000000000000000, [6, 11], 661, 360, ['Permanent upgrade slot IX']);
 // Game.last.iconFunction=function(){return Game.PermanentSlotIcon(9);};Game.last.activateFunction=function(){Game.AssignPermanentSlot(9);};
-const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/custIconsMHUU.png"
 
+        
 //Divine Upgrades
         CCSE.NewHeavenlyUpgrade('Divine savings', "Add to your bank all your unspent heavenly chips<q>They won\'t be spent<br>don\'t worry</q>", 7777777777, [20, 7], -725, 400, ['Decisive fate']);
         CCSE.NewHeavenlyUpgrade('Divine gains', "Each unspent heavenly chip will give you a <b>+1% to your CpS</b><q>That\'s a boost</q>", 7777777777777, [0, 0, "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/DivineGains.png"], -625, 604, ['Lucky payout', 'Divine bakeries']);
@@ -48,7 +48,10 @@ const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/
         CCSE.NewHeavenlyUpgrade('Nectar of Demigods', "You gain <b>5 more sugar lumps</b> on ascenscion", 500000000000000000, [27, 16], -1178, 453, ['Nectar of Deities']);
         CCSE.NewHeavenlyUpgrade('Nectar of Gods', "You gain <b>7 more sugar lumps</b> on ascenscion, and next sugar lump becomes golden", 10000000000000000000, [28, 16], -1185, 580, ['Nectar of Demigods']);
 
-
+//Fortunes
+    CCSE.NewHeavenlyUpgrade('Sors, immanis', "Fortunes persist across ascension<q>like the moon<br>you are changeable,<br>ever waxing<br>ever waning</q>", 777777777777, [0, 0, "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/heads/main/SorsImmanis.png"], -456, 753,  ['Fortune cookies']);
+        Game.last.showIf = function() { return (Game.Achievements["O Fortuna"].won == 1); };
+        
 //Kittens
         CCSE.NewHeavenlyUpgrade('Litter of kittens workforce', "Kittens persist through ascension<q>We're with you forever, sir</q>", 9000000000000, [26, 7], 600, -900, ['Kitten wages']);
         Game.last.showIf = function() { return (Game.Achievements["Purrfection"].won == 1); };
@@ -145,6 +148,33 @@ const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/
                 Game.Upgrades["Kitten admins"].bought = 1;
                 Game.Upgrades["Kitten strategists"].bought = 1;
             };
+            if (Game.Has('Sors, immanis')) {
+                Game.Upgrades["Fortune #001"].bought = 1;
+                Game.Upgrades["Fortune #002"].bought = 1;
+                Game.Upgrades["Fortune #003"].bought = 1;
+                Game.Upgrades["Fortune #004"].bought = 1;
+                Game.Upgrades["Fortune #005"].bought = 1;
+                Game.Upgrades["Fortune #006"].bought = 1;
+                Game.Upgrades["Fortune #007"].bought = 1;
+                Game.Upgrades["Fortune #008"].bought = 1;
+                Game.Upgrades["Fortune #009"].bought = 1;
+                Game.Upgrades["Fortune #010"].bought = 1;
+                Game.Upgrades["Fortune #011"].bought = 1;
+                Game.Upgrades["Fortune #012"].bought = 1;
+                Game.Upgrades["Fortune #013"].bought = 1;
+                Game.Upgrades["Fortune #014"].bought = 1;
+                Game.Upgrades["Fortune #015"].bought = 1;
+                Game.Upgrades["Fortune #016"].bought = 1;
+                Game.Upgrades["Fortune #017"].bought = 1;
+                Game.Upgrades["Fortune #018"].bought = 1;
+                Game.Upgrades["Fortune #019"].bought = 1;
+                Game.Upgrades["Fortune #020"].bought = 1;
+                Game.Upgrades["Fortune #100"].bought = 1;
+                Game.Upgrades["Fortune #101"].bought = 1;
+                Game.Upgrades["Fortune #102"].bought = 1;
+                Game.Upgrades["Fortune #103"].bought = 1;
+                Game.Upgrades["Fortune #104"].bought = 1;
+            };
         }
     });
 
@@ -181,58 +211,3 @@ const ICONS = "https://raw.githubusercontent.com/Boonch342/MinorGraphicsCC/refs/
           CCSE.postLoadHooks.push(EMHU.launch);
       }
   }
-
-    /* - Re-added in MHU Remastered
-    //Golden Summoner
-            CCSE.NewHeavenlyUpgrade('Call on the luck', "Unlocks the golden cookie summoner", 2000000000000000, [23, 6], -867, 713, ['Divine unascended gains']);
-            CCSE.NewUpgrade("Golden summoner", 'Summons an amount of golden cookies equal to your stored sugar lumps', 0, [23, 6]);
-            Game.last.priceLumps = 1;
-            Game.last.pool = 'toggle';
-            Game.last.toggleInto = 0;
-            Game.last.unlocked = 0;
-
-            Game.registerHook('logic', function() {
-                if (Game.Has('Call on the luck')) Game.Unlock('Golden summoner');
-                let currentLumps = Game.lumps;
-                let price;
-                if (currentLumps == 0) { price = 1 } else { price = currentLumps };
-                Game.Upgrades['Golden summoner'].priceLumps = price;
-                let cookiePlSng = (currentLumps == 1) ? 'cookie' : 'cookies';
-                Game.Upgrades['Golden summoner'].canBuyFunc = function() { return Game.lumps >= 1; };
-                Game.Upgrades['Golden summoner'].clickFunction = Game.spendLump(price, 'Summon ' + currentLumps + ' golden ' + cookiePlSng,
-                    function() {
-                        Game.Upgrades['Golden summoner'].buy(1);
-                        let notificationIcon;
-                        let notificationDesc;
-                        if (price >= 1 && price <= 5) {
-                            notificationIcon = [10, 25];
-                            notificationDesc = '<q>Not many, but still better than nothing</q>';
-                        } else if (price >= 6 && price <= 10) {
-                            notificationIcon = [10, 14];
-                            notificationDesc = '<q>Those are a bunch of cookies right there<br>And a lot of lumps<br><br>But you can do better</q>';
-                        } else if (price >= 11 && price <= 15) {
-                            notificationIcon = [25, 12];
-                            notificationDesc = '<q>We are spending amounts of lumps that shouldn\'t be possible</q>';
-                        } else if (price >= 16 && price <= 20) {
-                            notificationIcon = [22, 6];
-                            notificationDesc = '<q>Seriously, this is getting out of hand</q>';
-                        } else if (price >= 21) {
-                            notificationIcon = [23, 6];
-                            notificationDesc = '<q>Now it\'s time to stop</q>';
-                        }
-
-                        Game.Notify('Summoning <b>' + price + ' golden ' + cookiePlSng + '</b>', '<div style="text-align: center;font-weight: bold;color: #ffffff;"></div>', notificationIcon, 6, 1);
-                        var note = Game.NotesById[Game.noteId - 1];
-                        note.life = 600000;
-
-                        for (var i = 0; i < price; i++) {
-                            var newShimmer = new Game.shimmer("golden");
-                            newShimmer.spawnLead = 1;
-                            newShimmer.pop();
-                            note.life = 600000;
-                            note.desc = '<div style="text-align: center;font-weight: bold;color: #ffffff;">' + (i + 1) + '/' + price + ' cookies summoned' + notificationDesc + '</div>';
-                            Game.UpdateNotes();
-                        }
-                      });
-                    });
-*/
